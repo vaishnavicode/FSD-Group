@@ -1,0 +1,101 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+:root {
+    --blue-color: #0E3C6D;
+    --light-blue-color: #4593C3;
+    --brown-color: #46342ffd;
+    --text-color: rgb(255, 255, 255);
+    --bgcolor: #8B684E;
+    --redcolor: rgb(240, 85, 85);
+    --socialicons: #ecc39a;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blue-color);
+    box-shadow: 0 8px 11px rgb(14 55 77 / 20%);
+    color: var(--text-color);
+    padding: 20px 100px;
+    transition: 0.5s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    column-gap: 0.5rem;
+    padding-left: 6.25rem;
+}
+
+.logo .bx {
+    font-size: 24px;
+    color: var(--redcolor);
+}
+
+.logo span {
+    color: var(--redcolor);
+    font-size: 30px;
+    padding-bottom: 0.2rem;
+}
+
+.navbar {
+    display: flex;
+    column-gap: 0.5rem;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+}
+
+.navbar a:hover,
+.navbar .home-active {
+    color: var(--redcolor);
+    font-weight: 700;
+}
+
+.search {
+    height: 1.5rem;
+    width: 13rem;
+    margin-right: 0px;
+    border-radius: 5px;
+}
+
+.search:hover {
+    border: 1px solid var(--redcolor);
+}
+
+form button {
+    height: 1.7rem;
+}
+
+form button .bx {
+    color: red;
+}
+
+#menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}

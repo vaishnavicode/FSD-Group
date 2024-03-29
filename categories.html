@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="animation.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+  <title>Horizontal Scroll Example</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo"><i class='bx bx-building-house'></i>Property<span>Dealings</span></a>
+    <!--Menu Icon-->
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <!--Nav List-->
+    <ul class="navbar">
+        <li><a href="first_page.html">Home</a></li>
+        <li><a href="categories.html" class="home-active">Categories</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#properties">Properties</a></li>
+        <li><a href="#appointment">Appointment</a></li>
+        <li><a href="#customers">Customers</a></li>
+    </ul>
+    <!--Search-->
+    <form>
+        <input type="text" class="search" placeholder="Enter Your Search here">
+        <button type="submit">
+            <i class='bx bx-search-alt' id="search-button"></i>
+        </button>
+    </form>
+</header>
+
+
+
+  <div class="container-fluid position-relative" >
+    <img src="fot.jpeg" alt="Full Width Image" class="full-width-img">
+    <div class="overlay-text">
+      The #1 site real estate professionals trust
+    </div>  
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="explore-homes">
+          <h2>Explore homes</h2>
+          <p>Take a deep dive and browse homes for sale, original neighborhood photos, resident reviews and local insights to find what is right for you</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  
+  <div class="scroll-container">
+    <div class="scroll-item">
+      <a href="cities/ahemdabad.html" target="_blank">
+        <img src="ahemdabad.jpg" alt="Item 1">
+      </a>
+      <p style="background-color: silver !important;"><span class="city-text">Ahmedabad,GJ</span></p>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/mumbai.html" target="_blank">
+        <img src="mumbai.png" alt="Item 2">
+      </a>
+      <span class="city-text">Mumbai,MH</span>
+    </div>
+    <div class="scroll-item">
+      <a href="cities/jaipur.html" target="_blank">
+        <img src="jaipur.webp" alt="Item 3"><!--Jaipur-->
+      </a>
+      <span class="city-text">Jaipur,RJ</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/chennai.html" target="_blank">
+        <img src="chennai.jpg" alt="Item 4"><!--Chennai-->
+      </a>
+      <span class="city-text">Chennai,TN</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/panaji.html" target="_blank">
+        <img src="panaji.avif" alt="Item 5"><!--Goa-->
+      </a>
+      <span class="city-text">Panaji,GA</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/dharamshala.html" target="_blank">
+        <img src="dharamshala.jpg" alt="Item 6"><!--Dharamshala-->
+      </a>
+      <span class="city-text">Dharamshala,HP</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/srinagar.html" target="_blank">
+        <img src="srinagar.jpg" alt="Item 7"><!--Jammu Kashmir-->
+      </a>
+      <span class="city-text">Srinagar,JK</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/amritsar.html" target="_blank">
+        <img src="amritsar.jpg" alt="Item 8"><!--Amritsar-->
+      </a>
+      <span class="city-text">Amritsar,PB</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/bhuvaneshwar.html" target="_blank">
+        <img src="bhuvaneshwar.jpg" alt="Item 9"><!--Bhuvaneshwar-->
+      </a>
+      <span class="city-text">Bhuvaneshwar,OD</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/trivandrum.html" target="_blank">
+        <img src="trivandrum.png" alt="Item 10"><!--Kelera-->
+      </a>
+      <span class="city-text">Trivandrum,KL</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/banglore.html" target="_blank">
+        <img src="banglore.avif" alt="Item 11"><!--Banglore-->
+      </a>
+      <span class="city-text">Banglore,KA</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/kolkata.html" target="_blank">
+        <img src="kolkata.webp" alt="Item 12"><!--Kolkalta-->
+      </a>
+      <span class="city-text">Kolkata,WB</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/guwahati.html" target="_blank"> 
+        <img src="guwahati.jpg" alt="Item 13"><!--Guwahati-->
+      </a>
+      <span class="city-text">Guwahati,AS</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/kohima.html" target="_blank">
+        <img src="kohima.webp" alt="Item 14">
+      </a>
+      <span class="city-text">Kohima,NL</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/imphal.html" target="_blank">
+        <img src="imphal.jpeg" alt="Item 15"><!-- Manipur -->
+      </a>
+      <span class="city-text">Imphal,MN</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/newdelhi.html" target="_blank">
+        <img src="newdelhi.avif" alt="Item 16"><!--New Delhi-->
+      </a>
+      <span class="city-text">New Delhi,DL</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/kanpur.html" target="_blank">
+        <img src="kanpur.jpg" alt="Item 17" ><!--kanpur-->
+      </a>
+      <span class="city-text">Kanpur,UP</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/amaravati.html" target="_blank">
+        <img src="amaravati.webp" alt="Item 17"><!--Andhra Pradesh-->
+      </a>
+      <span class="city-text">Amaravati,AP</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/hyderabad.html" target="_blank">
+        <img src="hyderabad.png" alt="Item 18"><!--Telangana-->
+      </a>
+      <span class="city-text">Hyderabad,TL</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/ranchi.html" target="_blank">
+        <img src="ranchi.avif" alt="Item 19"><!--Jarkhand-->
+      </a>
+      <span class="city-text">Ranchi,JH</span>
+
+    </div>
+    <div class="scroll-item">
+      <a href="cities/shillong.html" target="_blank">
+        <img src="shillong.webp" alt="Item 20"><!--Meghalaya-->
+      </a>
+      <span class="city-text">Shillong,ML</span>
+
+    </div>
+
+    <div class="scroll-item">
+      <a href="cities/mipi.html" target="_blank">
+        <img src="mipi.jpg" alt="Item 22"><!--Arunachal-->
+      </a>
+      <span class="city-text">Mipi,AR</span>
+    </div>
+  </div>
+  <div style="display:block; margin:30px;">
+    <p style="text-align: center; height: 100px; font-size:large">
+      
+      Discover the perfect blend of luxury, comfort, and convenience with our exclusive range of properties. Whether you're seeking a cozy suburban retreat, a vibrant urban oasis, or a picturesque countryside escape, we have the keys to your ideal living space.
+      Our team of seasoned real estate professionals is dedicated to providing exceptional service and guidance throughout the buying, selling, or renting process. With our extensive knowledge of the local market, we are well-equipped to help you make informed decisions and secure the best deals.
+    </p>
+
+  </div>
+  
+
+ <!-- Check the HTML structure for the footer -->
+    <section class="footer" id="footer">
+      <!-- Address -->
+      <div class="footer-box">
+        <a href="#" class="logo"><i class="bx bx-building-house"></i>Address</a>
+        <p>Sarkhej LJ Road <br>5th Floor, Near LJ Architecture</p>
+        <div class="social">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-youtube"></i></a>
+        </div>
+      </div>
+      <!-- Categories -->
+      <div class="footer-box">
+        <h2>Categories</h2>
+        <a href="#">Buildings And Flat</a>
+        <a href="#">Row House</a>
+        <a href="#">Bungalow</a>
+        <a href="#">Apartment</a>
+      </div>
+      <!-- Useful Links -->
+      <div class="footer-box">
+        <h2>Useful Links</h2>
+        <a href="#">Payments and Tax</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">My Blog</a>
+        <a href="#">Return Policy</a>
+      </div>
+      <!-- Newsletter -->
+      <div class="footer-box">
+        <h2>Newsletter</h2>
+        <p>Get 10% Discount with Email Newsletter</p>
+        <form action="">
+          <i class="bx bxs-envelope" style="color:#4593C3;"></i>
+          <input type="email" name="" id="" placeholder="Enter Your email">
+          <i class="bx bx-arrow-back bx-rotate-180"></i>
+        </form>
+      </div>
+    </section>
+
+    <div class="copyright">
+      <p>&#169; Copyright All Rights Reserved</p>
+    </div>
+
+
+     
+  </body>
+</html>

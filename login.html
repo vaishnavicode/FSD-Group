@@ -1,0 +1,72 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Website</title>
+    <!--Link to Css Files-->
+    <link rel="stylesheet" href="style.css">
+    <!--Box Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--Swiper Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    </head>
+
+    <body>
+    <!--Navbar-->
+    <header>
+        <a href="#" class="logo"><i class='bx bx-building-house'></i>Property<span>Dealings</span></a>
+        <!--Menu Icon-->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!--Nav List-->
+        <ul class="navbar">
+        <li><a href="first_page.html" class="home-active">Home</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#appointment">Appointment</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="#customers">Customers</a></li>
+        </ul>
+        <!--Serach-->
+        <form>
+        <input type="text" class="search" placeholder="Enter Your Search here">
+        <button type="sumbit">
+            <i class='bx bx-search-alt' id="serach-button"></i>
+        </button>
+        </form>
+    </header>
+    <!--Login Form-->
+    <h1>Login Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+
+        <fieldset>
+
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+        </fieldset>
+        <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business</label>
+        </fieldset>
+        <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+
+        <label for="bio">Provide a bio:
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+        </fieldset>
+        <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://en.wikipedia.org/wiki/Terms_of_service">terms and conditions</a>
+        </label>
+        <input type="submit" value="Submit"/>
+    </form>
+    </body>
+
+    </html>

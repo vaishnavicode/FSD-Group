@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Carousel with Description</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+ rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css"> 
+  <link rel="stylesheet" href="properties.css"> 
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class='bx bx-building-house'></i>Property<span>Dealings</span></a>
+        <!--Menu Icon-->
+        <div class="bx bx-menu" id="menu-icon"></div>
+    
+        <!--Nav List-->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#appointment">Appointment</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+        <!--Search-->
+        <form>
+            <input type="text" class="search" placeholder="Enter Your Search here">
+            <button type="submit">
+                <i class='bx bx-search-alt' id="search-button"></i>
+            </button>
+        </form>
+    </header>
+
+    
+    <div class="container-fluid">
+    <p>5 properties found for sale in Amaravati</p>
+</div>
+    <div class="container custom-container">
+        <div class="row">
+            <div class="carousel-container">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="and.avif" class="d-block" alt="Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="amd.avif" class="d-block" alt="Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="kel.png" class="d-block" alt="Image 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        &lt;
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        &gt;
+                    </button>
+                </div>
+            </div>
+            <div class="description-container">
+                <p>Description of the image goes here. This can be multiple lines long.</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="container custom-container">
+        <div class="row">
+            <div class="carousel-container">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="and.avif" class="d-block" alt="Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="amd.avif" class="d-block" alt="Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="kel.png" class="d-block" alt="Image 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        &lt;
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        &gt;
+                    </button>
+                </div>
+            </div>
+            <div class="description-container">
+                <p>Description of the image goes here. This can be multiple lines long.</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="container custom-container">
+        <div class="row">
+            <div class="carousel-container">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="and.avif" class="d-block" alt="Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="amd.avif" class="d-block" alt="Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="kel.png" class="d-block" alt="Image 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        &lt;
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        &gt;
+                    </button>
+                </div>
+            </div>
+            <div class="description-container">
+                <p>Description of the image goes here. This can be multiple lines long.</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="container custom-container">
+        <div class="row">
+            <div class="carousel-container">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="and.avif" class="d-block" alt="Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="amd.avif" class="d-block" alt="Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="kel.png" class="d-block" alt="Image 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        &lt;
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        &gt;
+                    </button>
+                </div>
+            </div>
+            <div class="description-container">
+                <p>Description of the image goes here. This can be multiple lines long.</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="conta<!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Carousel with Description</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+         rel="stylesheet">
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> 
+        <style>
+              * {
+                    font-family: 'Poppins', sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    text-decoration: none;
+                    scroll-behavior: smooth;
+                    scroll-padding-top: 2rem;
+                }
+                
+                :root {
+                    --blue-color: #0E3C6D;
+                    --light-blue-color: #4593C3;
+                    --brown-color: #46342ffd;
+                    --text-color: rgb(255, 255, 255);
+                    --bgcolor: #8B684E;
+                    --redcolor: rgb(240, 85, 85);
+                    --socialicons: #ecc39a;
+                }
+                
+                header {
+                    position: fixed;
+                    width: 100%;
+                    top: 0;
+                    right: 0;
+                    z-index: 1000;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: var(--blue-color);
+                    box-shadow: 0 8px 11px rgb(14 55 77 / 20%);
+                    color: var(--text-color);
+                    padding: 20px 100px;
+                    transition: 0.5s;
+                }
+                
+                .logo {
+                    display: flex;
+                    align-items: center;
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    color: var(--text-color);
+                    column-gap: 0.5rem;
+                    padding-left: 6.25rem;
+                }
+                
+                .logo .bx {
+                    font-size: 24px;
+                    color: var(--redcolor);
+                }
+                
+                .logo span {
+                    color: var(--redcolor);
+                    font-size: 30px;
+                    padding-bottom: 0.2rem;
+                }
+                
+                .navbar {
+                    display: flex;
+                    column-gap: 0.5rem;
+                    box-sizing: border-box;
+                }
+                
+                .navbar a {
+                    font-size: 1rem;
+                    font-weight: 500;
+                    color: var(--text-color);
+                    padding: 0.5rem 1rem;
+                }
+                
+                .navbar a:hover,
+                .navbar .home-active {
+                    color: var(--redcolor);
+                    font-weight: 700;
+                }
+                
+                .search {
+                    height: 1.5rem;
+                    width: 13rem;
+                    margin-right: 0px;
+                    border-radius: 5px;
+                }
+                
+                .search:hover {
+                    border: 1px solid var(--redcolor);
+                }
+                
+                form button {
+                    height: 1.7rem;
+                }
+                
+                form button .bx {
+                    color: red;
+                }
+                
+                #menu-icon {
+                    font-size: 24px;
+                    cursor: pointer;
+                    z-index: 10001;
+                    display: none;
+                }
+        
+                .footer {
+          max-width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+          gap: 1.5rem;
+          margin-top: 2rem;
+          background: var(--socialicons);
+          border-radius: 0.5rem;
+          padding: 20px;
+        }
+        
+        .footer-box {
+          display: flex;
+          flex-direction: column;
+        }
+        
+        .footer-box p {
+          font-size: 0.938rem;
+          margin: 0.5rem 0 1rem;
+        }
+        
+        .footer-box h2 {
+          color: var(--blue-color);
+        }
+        
+        .social {
+          display: flex;
+          align-items: center;
+          column-gap: 0.5rem;
+        }
+        
+        .social .bx {
+          padding: 10px;
+          background: var(--light-blue-color);
+          color: white;
+          border-radius: 5rem;
+          font-size: 20px;
+        }
+        
+        .social .bx:hover {
+          background: white;
+          color: var(--light-blue-color);
+          transition: 0.2s all linear;
+        }
+        
+        .footer-box a {
+          color: white;
+        }
+        
+        .footer-box a:hover {
+          color: var(--light-blue-color);
+        }
+        
+        .custom-container {
+            width: 80%;
+            margin: 40px auto 0; /* Adjust the top margin to create space below the header */
+            transition: box-shadow 0.3s; /* Add transition for smooth effect */
+        }
+        
+            .custom-container:hover {
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Show shadow on hover */
+            }
+            .carousel-container {
+                width: 40%; /* Adjust the width as needed */
+                height: auto; /* Allows the height to adjust based on the carousel content */
+                float: left;
+            }
+            .description-container {
+                width: 60%; /* Adjust the width as needed */
+                float: left;
+                padding-left: 20px; /* Add some space between carousel and description */
+            }
+            .carousel-item img {
+                width: 100%;
+                height: auto; /* Ensure the images maintain their aspect ratio */
+            }
+            .carousel-control-prev,
+            .carousel-control-next {
+                width: auto;
+                top: 50%;
+                transform: translateY(-50%);
+                background-color: black;
+                border: 2px;
+                font-size: 2rem;
+                color: black; /* Adjust the color as needed */
+            }
+            p {
+        
+            color: black; /* Set the text color */
+            margin-top: 100px; /* Adjust the top margin to position the text */
+            margin-left: 150px; /* Adjust the top margin to position the text */
+        }
+        .description-container {
+            width: calc(100% - 40% - 20px); /* Adjust the width as needed */
+            padding-left: 20px; /* Add some space between carousel and description */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .connect-now-btn {
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 170px; /* Adjust the margin-top as needed */
+            width: 120px; /* Set a specific width */
+        }
+        
+        .connect-now-btn:hover {
+            background-color: darkred;
+        }
+        
+        
+        
+        </style>
+        </head>
+        <body>
+            <header>
+                <a href="#" class="logo"><i class='bx bx-building-house'></i>Property<span>Dealings</span></a>
+                <!--Menu Icon-->
+                <div class="bx bx-menu" id="menu-icon"></div>
+            
+                <!--Nav List-->
+                <ul class="navbar">
+                    <li><a href="#home" class="home-active">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#properties">Properties</a></li>
+                    <li><a href="#appointment">Appointment</a></li>
+                    <li><a href="#customers">Customers</a></li>
+                </ul>
+                <!--Search-->
+                <form>
+                    <input type="text" class="search" placeholder="Enter Your Search here">
+                    <button type="submit">
+                        <i class='bx bx-search-alt' id="search-button"></i>
+                    </button>
+                </form>
+            </header>
+        
+            
+            <div class="container-fluid">
+            <p>5 properties found for sale in Ahmedabad</p>
+        </div>
+        <div class="container custom-container">
+            <div class="row">
+                <div class="carousel-container">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="and.avif" class="d-block" alt="Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="amd.avif" class="d-block" alt="Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="kel.png" class="d-block" alt="Image 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                            &lt;
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            &gt;
+                        </button>
+                    </div>
+                </div>
+                <div class="description-container">
+                    <p>Description of the image goes here. This can be multiple lines long.</p>
+                    <!-- Connect Now Button -->
+                    <button class="connect-now-btn">Connect Now</button>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="container custom-container">
+            <div class="row">
+                <div class="carousel-container">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="and.avif" class="d-block" alt="Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="amd.avif" class="d-block" alt="Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="kel.png" class="d-block" alt="Image 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                            &lt;
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            &gt;
+                        </button>
+                    </div>
+                </div>
+                <div class="description-container">
+                    <p>Description of the image goes here. This can be multiple lines long.</p>
+                    <!-- Connect Now Button -->
+                    <button class="connect-now-btn">Connect Now</button>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="container custom-container">
+            <div class="row">
+                <div class="carousel-container">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="and.avif" class="d-block" alt="Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="amd.avif" class="d-block" alt="Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="kel.png" class="d-block" alt="Image 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                            &lt;
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            &gt;
+                        </button>
+                    </div>
+                </div>
+                <div class="description-container">
+                    <p>Description of the image goes here. This can be multiple lines long.</p>
+                    <!-- Connect Now Button -->
+                    <button class="connect-now-btn">Connect Now</button>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="container custom-container">
+            <div class="row">
+                <div class="carousel-container">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="and.avif" class="d-block" alt="Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="amd.avif" class="d-block" alt="Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="kel.png" class="d-block" alt="Image 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                            &lt;
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            &gt;
+                        </button>
+                    </div>
+                </div>
+                <div class="description-container">
+                    <p>Description of the image goes here. This can be multiple lines long.</p>
+                    <!-- Connect Now Button -->
+                    <button class="connect-now-btn">Connect Now</button>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="container custom-container">
+            <div class="row">
+                <div class="carousel-container">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="and.avif" class="d-block" alt="Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="amd.avif" class="d-block" alt="Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="kel.png" class="d-block" alt="Image 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                            &lt;
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            &gt;
+                        </button>
+                    </div>
+                </div>
+                <div class="description-container">
+                    <p>Description of the image goes here. This can be multiple lines long.</p>
+                    <!-- Connect Now Button -->
+                    <button class="connect-now-btn">Connect Now</button>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        
+           
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        
+        
+         <!-- Check the HTML structure for the footer -->
+         <section class="footer" id="footer">
+            <!-- Address -->
+            <div class="footer-box">
+              <a href="#" class="logo"><i class="bx bx-building-house"></i>Address</a>
+              <p>Sarkhej LJ Road <br>5th Floor, Near LJ Architecture</p>
+              <div class="social">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-youtube"></i></a>
+              </div>
+            </div>
+            <!-- Categories -->
+            <div class="footer-box">
+              <h2>Categories</h2>
+              <a href="#">Buildings And Flat</a>
+              <a href="#">Row House</a>
+              <a href="#">Bungalow</a>
+              <a href="#">Apartment</a>
+            </div>
+            <!-- Useful Links -->
+            <div class="footer-box">
+              <h2>Useful Links</h2>
+              <a href="#">Payments and Tax</a>
+              <a href="#">Terms of Use</a>
+              <a href="#">My Blog</a>
+              <a href="#">Return Policy</a>
+            </div>
+            <!-- Newsletter -->
+            <div class="footer-box">
+              <h2>Newsletter</h2>
+              <p>Get 10% Discount with Email Newsletter</p>
+              <form action="">
+                <i class="bx bxs-envelope" style="color:#4593C3;"></i>
+                <input type="email" name="" id="" placeholder="Enter Your email">
+                <i class="bx bx-arrow-back bx-rotate-180"></i>
+              </form>
+            </div>
+          </section>
+        
+          <div class="copyright">
+            <p>&#169; Copyright All right Reserved</p>
+          </div>
+        
+          
+        </body>
+        </html>
+        iner custom-container">
+        <div class="row">
+            <div class="carousel-container">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="and.avif" class="d-block" alt="Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="amd.avif" class="d-block" alt="Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="kel.png" class="d-block" alt="Image 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        &lt;
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        &gt;
+                    </button>
+                </div>
+            </div>
+            <div class="description-container">
+                <p>Description of the image goes here. This can be multiple lines long.</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+ <!-- Check the HTML structure for the footer -->
+ <section class="footer" id="footer">
+    <!-- Address -->
+    <div class="footer-box">
+      <a href="#" class="logo"><i class="bx bx-building-house"></i>Address</a>
+      <p>Sarkhej LJ Road <br>5th Floor, Near LJ Architecture</p>
+      <div class="social">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-youtube"></i></a>
+      </div>
+    </div>
+    <!-- Categories -->
+    <div class="footer-box">
+      <h2>Categories</h2>
+      <a href="#">Buildings And Flat</a>
+      <a href="#">Row House</a>
+      <a href="#">Bungalow</a>
+      <a href="#">Apartment</a>
+    </div>
+    <!-- Useful Links -->
+    <div class="footer-box">
+      <h2>Useful Links</h2>
+      <a href="#">Payments and Tax</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">My Blog</a>
+      <a href="#">Return Policy</a>
+    </div>
+    <!-- Newsletter -->
+    <div class="footer-box">
+      <h2>Newsletter</h2>
+      <p>Get 10% Discount with Email Newsletter</p>
+      <form action="">
+        <i class="bx bxs-envelope" style="color:#4593C3;"></i>
+        <input type="email" name="" id="" placeholder="Enter Your email">
+        <i class="bx bx-arrow-back bx-rotate-180"></i>
+      </form>
+    </div>
+  </section>
+
+  <div class="copyright">
+    <p>&#169; Copyright All right Reserved</p>
+  </div>
+
+  
+</body>
+</html>

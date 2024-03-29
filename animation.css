@@ -1,0 +1,86 @@
+.full-width-img {
+    padding-top:100px;
+    padding-left:50px;
+    padding-right:40px;
+    width: 90%;
+    height: 500px;
+    border-radius: 2px;
+    position: relative;
+  }
+  .overlay-text {
+      position: absolute;
+      top: 55%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 36px;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px black;
+      text-align: center;
+      animation: jump 2s infinite alternate; /* Define the animation */
+  }
+
+  .explore-homes {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .explore-homes h2 {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .explore-homes p {
+    color: #888888; /* Lighter color */
+    font-size: 20px;
+  }
+  img{
+    height:200px;
+    width:200px;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .scroll-container {
+    width: 100%; /* Full width */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping */
+    padding-left:20px;
+    border-radius: 50px;;
+  }
+  
+  .scroll-item {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    margin-right: 20px;
+    vertical-align: top; /* Align items to the top */
+    position: relative;
+    overflow: hidden;
+    border-radius:20px
+  }
+  .scroll-item img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    max-height: 100%; /* Ensure the image does not exceed the container height */
+    
+  }
+  .scroll-item:hover img {
+    transform: scale(1.1); /* Enlarge the image on hover */
+  }
+  .scroll-item .city-text {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    z-index: 1;
+  }
+  @keyframes jump { /* Define the animation details */
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); } /* Move up 20px */
+    100% { transform: translateY(0); }
+  }
+      

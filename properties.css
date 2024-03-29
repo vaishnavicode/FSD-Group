@@ -1,0 +1,64 @@
+
+.custom-container {
+width: 80%;
+margin: 40px auto 0; /* Adjust the top margin to create space below the header */
+transition: box-shadow 0.3s; /* Add transition for smooth effect */
+}
+
+.custom-container:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Show shadow on hover */
+}
+.carousel-container {
+width: 40%; /* Adjust the width as needed */
+height: auto; /* Allows the height to adjust based on the carousel content */
+float: left;
+}
+.description-container {
+width: 60%; /* Adjust the width as needed */
+float: left;
+padding-left: 20px; /* Add some space between carousel and description */
+}
+.carousel-item img {
+width: 100%;
+height: auto; /* Ensure the images maintain their aspect ratio */
+}
+.carousel-control-prev,
+.carousel-control-next {
+width: auto;
+top: 50%;
+transform: translateY(-50%);
+background-color: black;
+border: 2px;
+font-size: 2rem;
+color: black; /* Adjust the color as needed */
+}
+p {
+
+color: black; /* Set the text color */
+margin-top: 100px; /* Adjust the top margin to position the text */
+margin-left: 150px; /* Adjust the top margin to position the text */
+}
+.description-container {
+width: calc(100% - 40% - 20px); /* Adjust the width as needed */
+padding-left: 20px; /* Add some space between carousel and description */
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.connect-now-btn {
+background-color: red;
+color: white;
+border: none;
+border-radius: 20px;
+padding: 10px 20px;
+cursor: pointer;
+font-size: 16px;
+margin-top: 170px; /* Adjust the margin-top as needed */
+width: 120px; /* Set a specific width */
+}
+
+.connect-now-btn:hover {
+background-color: darkred;
+}
+
